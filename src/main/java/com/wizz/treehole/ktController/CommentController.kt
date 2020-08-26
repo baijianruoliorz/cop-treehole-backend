@@ -1,4 +1,4 @@
-package com.wizz.treehole.controller
+package com.wizz.treehole.ktController
 
 import com.wizz.treehole.mapper.CommentMapper
 import org.springframework.beans.factory.annotation.Autowired

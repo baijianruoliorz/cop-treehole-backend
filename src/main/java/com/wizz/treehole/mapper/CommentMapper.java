@@ -2,6 +2,7 @@ package com.wizz.treehole.mapper;
 
 import com.wizz.treehole.entity.Comment;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.wizz.treehole.entity.CommentEntity;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
@@ -15,6 +16,6 @@ import org.springframework.stereotype.Repository;
  */
 @Mapper
 @Repository
-public interface CommentMapper extends BaseMapper<Comment> {
+public interface CommentMapper extends BaseMapper<CommentEntity> {
 
 }

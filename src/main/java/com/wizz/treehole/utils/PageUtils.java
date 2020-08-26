@@ -6,7 +6,7 @@
  * 版权所有，侵权必究！
  */
 
-package com.atguigu.common.utils;
+package com.wizz.treehole.utils;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 
