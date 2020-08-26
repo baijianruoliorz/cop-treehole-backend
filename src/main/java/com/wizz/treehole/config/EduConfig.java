@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 * */
 //必须带这个config 不然扫描不到mapper
 @Configuration
-@MapperScan("com.yxr.tmall.mapper")
+@MapperScan("com.yxr.treehole.mapper")
 public class EduConfig {
 //也可以不写任何东西！
 
