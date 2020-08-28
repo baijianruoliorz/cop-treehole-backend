@@ -1,4 +1,4 @@
-FROM java:8
+FROM maven:3.6.3-openjdk-8 AS MAVEN_BUILD
 #把jar包靠上去,命名为app.jar
 COPY *.jar /app.jar
 

@@ -24,6 +24,5 @@ import java.util.*
 
         val selectPage = messgaeMapper.selectPage(Query<MessageEntity>().getPage(params),null);
         return R.ok().data("data",selectPage);
-
     }
 }
