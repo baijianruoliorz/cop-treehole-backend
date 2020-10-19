@@ -18,3 +18,8 @@ docker run --name treehole -d -p 8006:8006 liqiqiorz/treehole:latest
 ```
 
 backendApi:[treehole-sonic-backendApi](http://112.126.78.122:8006/swagger-ui.html#/)
+
+
+
+uodate:完整源码整合elasticsearch+rabbitmq+阿里云直播    --2020.10.09
+ 
